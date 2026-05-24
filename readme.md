@@ -1,4 +1,4 @@
-# 👏 Clap Launcher
+# 🖥️ Ao trabalho
 
 Bata duas palmas e o sistema abre o que você quiser automaticamente.
 
