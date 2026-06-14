@@ -73,7 +73,7 @@ def main():
         channels=1,
         rate=44100,
         input=True,
-        frames_per_buffer=1024
+        frames_per_buffer=1024,
     )
 
     ultimo_clap = 0
