@@ -6,7 +6,6 @@ import os
 
 VSCODE_PATH  = os.path.expandvars(r"%LOCALAPPDATA%\Programs\Microsoft VS Code\Code.exe")
 PROJETO_PATH = r"C:\Users\wesle\OneDrive\Desktop\Projetos Pessoais\clap_launcher"
-JARVIS_PATH = r"C:\Users\wesle\OneDrive\Desktop\Projetos Pessoais\J.A.R.V.I.S\Mark - III UI Lissajous"
 
 # ─────────────────────────────────────────
 #  CONFIGURAÇÕES
@@ -23,12 +22,6 @@ SPOTIFY_URI = "spotify:track:08mG3Y1vljYA6bvDt4Wqkj"
 # ─────────────────────────────────────────
 #  AÇÕES
 # ─────────────────────────────────────────
-
-def abrir_jarvis():
-    subprocess.Popen(
-        ["python", "app.py"],
-        cwd=JARVIS_PATH
-    )
 
 def abrir_spotify():
     subprocess.Popen(
@@ -50,7 +43,6 @@ def abrir_vscode():
 
 def abrir_tudo():
     print("\n🎉 Duas palmas detectadas! Abrindo tudo...\n")
-    abrir_jarvis()
     abrir_spotify()
     time.sleep(3)
     abrir_vscode()
